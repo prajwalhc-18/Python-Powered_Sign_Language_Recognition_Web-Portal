@@ -1,0 +1,111 @@
+body {
+    background-color: #d6d6d6;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #11054f;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .contact-link {
+    position: relative;
+  }
+  
+  .contact-popup {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+  }
+  
+  .contact-link:hover .contact-popup {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .contact-popup p {
+    margin: 0;
+  }
+  
+  .contact-popup a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  main {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .intro h2 {
+    color: #6f0000;
+  }
+  
+  .features {
+    margin-top: 40px;
+  }
+  
+  .features h2 {
+    color: #062121;
+  }
+  
+  .features ul {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+  
+  button {
+    background-color: #ef5615;
+    border: solid;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FF6347;
+  }
+  
+  footer {
+    background-color: #c70000;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+  }
+  
